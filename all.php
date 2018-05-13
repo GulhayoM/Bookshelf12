@@ -11,7 +11,7 @@
 			echo '<div id="templatemo_content_right">';
 				        echo '<h1>Books</h1>';
 
-			while($row=mysqli_fetch_array($result)){
+			while($row=mysqli_fetch_array($result)){//showing all results in the view
 
         echo '
         	<div class="templatemo_product_box">
