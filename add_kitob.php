@@ -39,7 +39,7 @@ if(isset($_POST['save'])){
       $file_name = $_FILES['image']['name'];
       $file_size =$_FILES['image']['size'];
       $file_tmp =$_FILES['image']['tmp_name'];
-      $apple = explode(".",$_FILES['imagek']['name']);
+      $apple = explode(".",$_FILES['imagek']['name']);// database changes
       $file_ext=strtolower(end($apple));
 
 
